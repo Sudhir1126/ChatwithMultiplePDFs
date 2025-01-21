@@ -2,6 +2,9 @@ import streamlit as st
 from PyPDF2 import PdfReader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 import os
+import faiss
+print("FAISS version:", faiss.__version__)
+
 
 # Debug block to check FAISS import
 try:
